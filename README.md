@@ -39,7 +39,7 @@ Jun 24 01:00:57 <hostname> <host ip>: rpd[6988]: RPD_RSVP_NBRUP: RSVP neighbor <
 Jun 24 12:10:14 <hostname> <host ip>: mib2d[11904]: SNMP_EVLIB_FAILURE: PFED ran out of transfer credits with PFE.Failed to get stats. ifl index: 6155 
 
 ```
-### 4. 
+### 4. DDOS_PROTOCOL_VIOLATION_SET and DDOS_PROTOCOL_VIOLATION_CLEAR
 ```log
 Jun 24 02:34:25 <hostname> <host ip>: jddosd[23182]: DDOS_PROTOCOL_VIOLATION_SET: Warning: Host-bound traffic for protocol/exception  DHCPv4v6:aggregate exceeded its allowed bandwidth at fpc 0 for 608 times, started at 2023-06-24 02:34:24 NPT
 Jun 24 02:35:22 <hostname> <host ip>: jddosd[13160]: DDOS_PROTOCOL_VIOLATION_CLEAR: INFO: Host-bound traffic for protocol/exception PPPoE:padi has returned to normal. Its allowed bandwith was exceeded at fpc 0 for 134 times, from 2023-06-23 07:12:31 NPT to 2023-06-24 02:30:21 NPT
