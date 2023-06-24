@@ -1,7 +1,7 @@
 # python_projects
 All kinds of python scripts and API's
 
-## Uses
+## Usage
 
 ### 1. Clone the repository
 ```bash
